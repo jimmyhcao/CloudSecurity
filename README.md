@@ -46,11 +46,13 @@ An NSG is a fundamental component of Azure's network security. It acts as a basi
 <br>A step by step guide on creating Azure's Network Security Group can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/8111494103e82d812e491f857fe1b625d573b25f/NetworkSecurityGroup.md"> here </a><br>
 
 <hr>
-
-
-
-
-
+<h3>Virtual Machines (VMs)</h3>
+Now that we have out virtual network and security group created to protect it, we can continue creating our cloud infrastructure by creating and adding some virtual machines to our network. Virtual computing is prevalent in today's internet infrastructure, where many servers you encounter daily are virtual. Virtual computers share components with physical ones but are defined by software. When setting up a virtual machine, you'll configure hardware aspects, including:<br>
+<br><li>RAM
+<li>Storage (SSD/HDD)
+<li>Disks
+<li>CPU</li>
+<br>Our objective during this step is to create 3 VMs with one being a jump box used to access our cloud network and any other VMs located inside of it. 
 
 
 <br><p align="center"><i></i>
