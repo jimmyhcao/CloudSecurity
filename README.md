@@ -27,7 +27,13 @@ A step by step guide on building a Resource Group can be found <a href="https://
 <h3>Virtual Network</h3>
 A virtual network, often called a VLAN or VPN, creates isolated network segments within a physical network for improved management and security. Azure Virtual Network is Microsoft Azure's service for secure, isolated cloud networks, enabling control over IPs, subnets, and security for connecting Azure services like VMs, databases, and web apps.
 
+<br>Creating a virtual network would be the next step in this project
 
+<br><p align="center"><i>Screenshot of completed Virtual Network</i>
+<br><img src="https://i.imgur.com/uhwmAng.png" height="70%" width="70%">
+
+<br>
+A step by step guide on creating Azure's Virtual Network can be found <a href=""> here</a>
 
 
 
