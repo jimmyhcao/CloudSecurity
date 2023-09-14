@@ -19,11 +19,11 @@ Azure resource groups organize related resources for a project, making them easi
 <br><img src="https://i.imgur.com/ejBDnoP.png" height="70%" width="70%">
 
 <br>
-A step by step guide on building a Resource Group can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/63ad031e16fa2e1f13dfa5537d5cf7fdd05295d6/ResourceGroup.md"> here</a>
+A step by step guide on building a Resource Group can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/63ad031e16fa2e1f13dfa5537d5cf7fdd05295d6/ResourceGroup.md"> here</a><br>
 
 
-
-
+<br>
+<hr>
 <h3>Virtual Network</h3>
 A virtual network, often called a VLAN or VPN, creates isolated network segments within a physical network for improved management and security. Azure Virtual Network is Microsoft Azure's service for secure, isolated cloud networks, enabling control over IPs, subnets, and security for connecting Azure services like VMs, databases, and web apps.
 
@@ -33,12 +33,16 @@ A virtual network, often called a VLAN or VPN, creates isolated network segments
 <br><img src="https://i.imgur.com/uhwmAng.png" height="70%" width="70%">
 
 <br>
-A step by step guide on creating Azure's Virtual Network can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/eecea6118be682c37ee223303b1e40f650c40717/VirtualNetwork.md"> here</a>
+A step by step guide on creating Azure's Virtual Network can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/eecea6118be682c37ee223303b1e40f650c40717/VirtualNetwork.md"> here</a><br>
+<br>
+<hr>
+<h3>Network Security Group (NSG)</h3>
+An NSG is a fundamental component of Azure's network security. It acts as a basic network-level firewall that allows or denies inbound and outbound traffic to network interfaces, VMs, or subnets within a virtual network. NSGs work at the transport layer (Layer 4) of the OSI model and can be used to define rules that control the flow of network traffic based on source IP, destination IP, port, and protocol. You can use NSGs to filter traffic both inbound and outbound at the network level.
 
 
-
-
-
+<br><p align="center"><i>Screenshot of Network Security Group</i>
+<br><img src="https://i.imgur.com/6x74y2C.png" height="70%" width="70%">
+A step by step guide on creating Azure's Network Security Group can be found <br><a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/8111494103e82d812e491f857fe1b625d573b25f/NetworkSecurityGroup.md"> here</a>
 
 
 
@@ -50,4 +54,4 @@ A step by step guide on creating Azure's Virtual Network can be found <a href="h
 
 <br><p align="center"><i></i>
 <br><img src="" height="70%" width="70%">
-<a href=""> Download</a>
+<br><a href=""> Download</a>
