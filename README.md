@@ -1,1 +1,36 @@
-# CloudSecurity-InProgress
+<h1> Project: Building a Secure Cloud ☁️ Network with VMs and Containers</h1>
+<br>
+In an age of cloud dominance, safeguarding your network is paramount. Our GitHub project focuses on creating a robust cloud network using VMs and containers. This project equips IT professionals, developers, and cybersecurity enthusiasts with knowledge and tools to secure cloud operations. This introduction outlines the project's significance, explores cloud networking, VMs, containers, and cybersecurity, and sets the stage for our comprehensive resources and tutorials. Join us to build a safer digital world where innovation and security thrive together.
+
+<br>This project will cover the following tools and services<br>
+
+<li>Microsoft Azure
+<li>Docker
+<li>Ansible
+</li>
+
+<h2>Getting Started</h2>
+To get our project kicked off, we will need to create and sign into out Microsoft Azure account. After which we will create a <b>Resource Group</b>
+<br>
+<h3>Resource Groups</h3>
+Azure resource groups organize related resources for a project, making them easily identifiable by name. They encompass all the necessary elements, such as networks, firewalls, and virtual computers.
+
+<br><p align="center"><i>Screen shot of completed Resource Group</i>
+<br><img src="https://i.imgur.com/ejBDnoP.png" height="70%" width="70%">
+
+<br>
+A step by step guide on building a Resource Group can be found <a href=""> here</a>
+
+
+
+
+
+
+
+
+
+
+
+<br><p align="center"><i></i>
+<br><img src="" height="70%" width="70%">
+<a href=""> Download</a>
