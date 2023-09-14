@@ -20,10 +20,4 @@
 
 </ol>
 
-
-
-
-
-
-
-<br><img src="" height="70%" width="70%">
+Click here to return to <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/255bd281943dc73bf4b25b1e440dda6173dbe091/README.md"> README.MD</a>
