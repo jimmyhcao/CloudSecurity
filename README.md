@@ -52,7 +52,16 @@ Now that we have out virtual network and security group created to protect it, w
 <li>Storage (SSD/HDD)
 <li>Disks
 <li>CPU</li>
-<br>Our objective during this step is to create 3 VMs with one being a jump box used to access our cloud network and any other VMs located inside of it. 
+<br>Within the domain of virtual computing, these elements are simulated through software. When setting up a virtual machine (VM), we specify its "hardware" attributes, which encompass details such as RAM, storage capacity, and CPU. Following this configuration, we install an operating system, enabling the VM to function as a standard computer.<br>
+<br>In this phase, our goal is to establish three virtual machines (VMs), with one serving as a jump box, also referred to as a bastion host. This jump box will act as the gateway for accessing our cloud network and any other VMs residing within it. 
+
+
+<br><p align="center"><i>Basic diagram of our objective during this step</i>
+<br><img src="https://i.imgur.com/5KhC9SS.png" height="70%" width="70%">
+
+
+
+
 
 
 <br><p align="center"><i></i>
