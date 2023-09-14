@@ -43,9 +43,9 @@ An NSG is a fundamental component of Azure's network security. It acts as a basi
 <br><p align="center"><i>Screenshot of Network Security Group</i>
 <br><img src="https://i.imgur.com/6x74y2C.png" height="70%" width="70%">
 
-<br>A step by step guide on creating Azure's Network Security Group can be found <br><a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/8111494103e82d812e491f857fe1b625d573b25f/NetworkSecurityGroup.md">here</a>
+<br>A step by step guide on creating Azure's Network Security Group can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/8111494103e82d812e491f857fe1b625d573b25f/NetworkSecurityGroup.md"> here </a><br>
 
-
+<hr>
 
 
 
