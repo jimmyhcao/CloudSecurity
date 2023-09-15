@@ -6,7 +6,7 @@
 
   
 <li>We will begin by making a connection to our Jump Box through SSH  </li>
-<br><img src="https://i.imgur.com/lzfNmUC.png" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/lzfNmUC.png" height="70%" width="70%">
 
 <br><li> Next, we will need to install Docker with the commands</li>
 ```
