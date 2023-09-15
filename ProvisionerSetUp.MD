@@ -26,11 +26,12 @@ docker run -it cyberxsecurity/ansible /bin/bash
 <li>Test connection of our Jump Box Ansible Container. Since only TCP connections are enabled for SSH in our security group rule, ICMP packets will be denied, making ping fail   </li>
 <br><p align="center"><img src="https://i.imgur.com/7Km5wBY.png" height="70%" width="70%">
 
-<li> However, if we connect to our VM with SSH, we will be able to accept the key </li>
+<li> However, if we connect to our VM with SSH, we will be able to accept the key.</li><br>
 Run
 
 ```
 ssh <username>@<webVM-IP>
+
 #For our example we ran 
 ssh HomeLab@10.0.0.5
 ```
