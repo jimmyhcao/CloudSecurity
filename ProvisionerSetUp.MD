@@ -52,6 +52,7 @@ All of hte Ansible configuration files are located in the <code>/etc/ansible</co
 
 <br><p align="center"><img src="https://i.imgur.com/2nN9HRb.png" height="70%" width="70%"><br>
 <br>
+
 <br>To ensure seamless operation, it's essential to include the following line ansible_python_interpreter=/usr/bin/python3 after each IP address entry. This adjustment is necessary because Ansible operates by generating a Python script that runs on the target machine, leveraging the Python interpreter installed on that machine. By explicitly specifying Python3 for Ansible, we proactively mitigate potential compatibility issues.
 
 
