@@ -21,14 +21,11 @@ sudo systemctl status docker
 ```
 
 </li>
-<br><img src="" height="70%" width="70%">
+<br><img src="https://i.imgur.com/YRRNAFL.png" height="70%" width="70%">
 <br> Note that if Docker service is not running, it can be started with the following command: 
 ```
 sudo systemctl start docker
 ```
-
-
-
 
 <br><li>After verifying that Docker service is running, run the following command with sudo to pull the "cyberxsecurity/ansible" container from Docker Hub: 
 ```
@@ -37,8 +34,7 @@ sudo docker pull cyberxsecurity/ansible
 <br>This command will download the specified container image from Docker Hub to your local system. Once the image is pulled, you can proceed to create and run containers based on it for your Ansible tasks.
 
 </li>
-<br><img src="" height="70%" width="70%">
-<br><img src="" height="70%" width="70%">
+<br><img src="https://i.imgur.com/OZDDfaf.png" height="70%" width="70%">
 
 <br>Ansible is an open-source automation tool that simplifies IT infrastructure management and configuration through code, making it crucial for automating tasks and maintaining consistency in our Dockerized environment.
 
@@ -49,7 +45,7 @@ sudo docker pull cyberxsecurity/ansible
 docker run -ti cyberxsecurity/ansible:latest bash
 ```
  </li>
-<br><img src="" height="70%" width="70%">
+<br><img src="https://i.imgur.com/x9on3sf.png" height="70%" width="70%">
 <br>This command initiates the Ansible container, allocates a pseudo-TTY for interaction, and starts a bash shell inside the container. This allows you to access the container's command-line interface and execute Ansible commands for our project needs.
 
 
@@ -58,18 +54,6 @@ docker run -ti cyberxsecurity/ansible:latest bash
 <br><img src="  https://i.imgur.com/JvXlaki.png " height="70%" width="70%">
 
 <br><img src="https://i.imgur.com/Byv930Z.png" height="70%" width="70%">
-
-<br><li>       </li>
-<br><img src="" height="70%" width="70%">
-
-<br><li>       </li>
-<br><img src="" height="70%" width="70%">
-
-<br><li>       </li>
-<br><img src="" height="70%" width="70%">
-
-
-
 
 
 
