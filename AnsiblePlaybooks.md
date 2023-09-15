@@ -24,7 +24,7 @@
     become: true
     tasks:
 ```
-<b>Breakdown
+<b>Breakdown</b>
 <ul>
 <li><code>---</code> : Denotes that this is a YAML file</li>
 <li><code>- name </code></li> : Will be the name of the playbook
