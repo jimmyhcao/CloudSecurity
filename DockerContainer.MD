@@ -44,15 +44,35 @@ sudo docker pull cyberxsecurity/ansible
 
 
 
-<br><li>    </li>
+<br><li> Launch the Ansible container and connect to it using the following Docker command:
+```
+docker run -ti cyberxsecurity/ansible:latest bash
+```
+ </li>
 <br><img src="" height="70%" width="70%">
+<br>This command initiates the Ansible container, allocates a pseudo-TTY for interaction, and starts a bash shell inside the container. This allows you to access the container's command-line interface and execute Ansible commands for our project needs.
 
 
-<br><li>    </li>
-<br><img src="   " height="70%" width="70%">
+
+<br><li>We will now need to create a new security group rule that will allow our Jump Box full access to our VNet. For now we will need an inbound rule that will allow SSH connections from our Jump Box's private IP address.</li>
+<br><img src="  https://i.imgur.com/JvXlaki.png " height="70%" width="70%">
+
+<br><img src="https://i.imgur.com/Byv930Z.png" height="70%" width="70%">
 
 <br><li>       </li>
 <br><img src="" height="70%" width="70%">
+
+<br><li>       </li>
+<br><img src="" height="70%" width="70%">
+
+<br><li>       </li>
+<br><img src="" height="70%" width="70%">
+
+
+
+
+
+
 
 </ol>
 
