@@ -19,7 +19,7 @@
 
 ```
 ---
-  - name: My first playbook
+  - name: Config Web VM with Docker
     hosts: webservers
     become: true
     tasks:
