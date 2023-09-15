@@ -18,7 +18,7 @@ docker run -it cyberxsecurity/ansible /bin/bash
 <br><p align="center"><img src="https://i.imgur.com/N1u8phg.png" height="70%" width="70%">
 
 <li>Run <code>cat .ssh/id_rsa.pub</code> to view your public key. Copy your public key string   </li>
-<br><p align="center"><img src="https://i.imgur.com/8YbYXCe.png" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/8YbYXCe.png" height="100%" width="100%">
 
 <li> From the Azure home page, go into one of the VM's detail page. On the left panel navigate to "reset password" and enter the public key that was copied. </li>
 <br><p align="center"><img src="" height="70%" width="70%">
