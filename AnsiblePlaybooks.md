@@ -26,7 +26,7 @@
 ```
 <b>Breakdown</b>
 <ul>
-<li><code>---</code>:Denotes that this is a YAML file</li>
+<li><code>---</code>:Denotes that this is a YAML file
 <li><code>- name </code></li>:Will be the name of the playbook
 <li><code>hosts </code></li>:Is the group of servers in the hosts file that actions will run on
 <li><code>become true</code></li>:This will run all actions as root on the server. We must run items with root to install software and make system changes
