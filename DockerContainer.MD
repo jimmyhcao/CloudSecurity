@@ -1,1 +1,2 @@
 <h1>Setting Up Docker Containers</h1>
+A container in the cloud is a lightweight, standalone, and portable environment that packages an application along with its dependencies, allowing it to run consistently across different cloud infrastructure and computing environments. Containers enable efficient deployment, scaling, and management of software applications in the cloud by isolating them from the underlying infrastructure and ensuring consistent execution regardless of where they are deployed.
