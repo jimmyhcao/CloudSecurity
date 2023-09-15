@@ -40,14 +40,18 @@ ssh HomeLab@10.0.0.5
 
 
 <li> Run <code> exit</code> to close the SSH connection and return to the Ansible container. From here run <code>ansible</code>  </li>
-<br><p align="center"><img src="" height="70%" width="70%">
 
-<li> At this point we must make two changes to the configuration files to allow Ansible make connections. This is because Ansible needs to know which administrative username to use when making SSH connections. For our example <b>HomeLab</b> was our administrative username we created, so it will need to be added to the configuration file. </li><br>
+<li> At this point we must make two changes to the configuration files to allow Ansible make connections. This is because Ansible needs to know which administrative username to use when making SSH connections and the IP addresses of the VMs we want it to connect to. For our example <b>HomeLab</b> was our administrative username we created, so it will need to be added to the configuration file. </li><br>
 All of hte Ansible configuration files are located in the <code>/etc/ansible</code> directory. we can view these files by running <code> cd /etc/ansible</code> followed by <code>ls</code>
 <br><p align="center"><img src="https://i.imgur.com/musHynk.png" height="70%" width="70%">
 
-<li>   </li>
-<br><p align="center"><img src="" height="70%" width="70%">
+<li> To configure the file with our admin name, run <code>nano /etc/ansible/ansible.cfg</code>. Scroll down the file until you locate <code>remote_user</code> and uncomment it by removing the #. Now replace <code>root</code> with our admin name (HomeLab)  </li>
+<br><p align="center"><img src="https://i.imgur.com/xcUVfbw.png" height="70%" width="70%">
+
+
+
+
+
 </ol>
 
 <br>
