@@ -5,11 +5,11 @@
 
   
 <li> Run the following command to start your container and connect to it. (Note that the prompt changed to "root@90d26a19d0c.)</li>
-
+<br>
 ```
 docker run -it cyberxsecurity/ansible /bin/bash
 ```
-<br><p align="center"><img src="https://i.imgur.com/jkr9ND7.png" height="70%" width="70%">
+<p align="center"><img src="https://i.imgur.com/jkr9ND7.png" height="70%" width="70%">
 
 <li>We will now need to create a SSH key using ssh-keygen  </li>
 <br><p align="center"><img src="https://i.imgur.com/jkr9ND7.png" height="70%" width="70%">
