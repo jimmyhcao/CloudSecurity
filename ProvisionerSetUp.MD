@@ -45,10 +45,17 @@ ssh HomeLab@10.0.0.5
 All of hte Ansible configuration files are located in the <code>/etc/ansible</code> directory. we can view these files by running <code> cd /etc/ansible</code> followed by <code>ls</code>
 <br><p align="center"><img src="https://i.imgur.com/musHynk.png" height="70%" width="70%">
 
-<li> To configure the file with our admin name, run <code>nano /etc/ansible/ansible.cfg</code>. Scroll down the file until you locate <code>remote_user</code> and uncomment it by removing the #. Now replace <code>root</code> with our admin name (HomeLab)  </li>
+<li> To configure the file with our admin name, run <code>nano /etc/ansible/ansible.cfg</code>. Scroll down the file until you locate <code>remote_user</code> and uncomment it by removing the #. Now replace <code>root</code> with our admin name (HomeLab). Save and exit  </li>
 <br><p align="center"><img src="https://i.imgur.com/xcUVfbw.png" height="70%" width="70%">
 
+<li>Run <code>nano hosts</code> to update it by adding the IP addresses of our VMs. Scroll down the file until the <code>[webservers]</code> header. Uncomment it by removing the #. Add both of our VM IP addresses under this section.   </li>
+<br><p align="center"><img src="https://i.imgur.com/2nN9HRb.png" height="70%" width="70%"><br>
+To ensure seamless operation, it's essential to include the following line ansible_python_interpreter=/usr/bin/python3 after each IP address entry. This adjustment is necessary because Ansible operates by generating a Python script that runs on the target machine, leveraging the Python interpreter installed on that machine. By explicitly specifying Python3 for Ansible, we proactively mitigate potential compatibility issues.
 
+
+
+<li>At this point we can save our configurations and exit the VM. It is always good to test to see if our connections are working correctly. Run <code> ansible all -m ping </code>   </li>
+<br><p align="center"><img src="https://i.imgur.com/Y7aAHnh.png" height="70%" width="70%">
 
 
 
