@@ -4,7 +4,8 @@
 <ol>
 
   
-<li> Run the following command to start your container and connect to it. (Note that the prompt changed to "root@90d26a19d0c.)  </li>
+<li> Run the following command to start your container and connect to it. (Note that the prompt changed to "root@90d26a19d0c.)</li>
+
 ```
 docker run -it cyberxsecurity/ansible /bin/bash
 ```
