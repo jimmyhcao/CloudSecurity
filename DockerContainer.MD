@@ -46,6 +46,7 @@ docker run -ti cyberxsecurity/ansible:latest bash
 ```
  </li>
 <br><img src="https://i.imgur.com/x9on3sf.png" height="70%" width="70%">
+
 <br>This command initiates the Ansible container, allocates a pseudo-TTY for interaction, and starts a bash shell inside the container. This allows you to access the container's command-line interface and execute Ansible commands for our project needs.
 
 
