@@ -16,17 +16,24 @@ docker run -it cyberxsecurity/ansible /bin/bash
 <li> Run <code>ls .ssh/</code> to view the keys created  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li>Run <code>cat .ssh/id_rsa.pub</code> to view your public key. Copy your public key string   </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> From the Azure home page, go into one of the VM's detail page. On the left panel navigate to "reset password" and enter the public key that was copied. </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
-<br><p align="center"><img src="" height="70%" width="70%">
+<li>Test connection of our Jump Box Ansible Container. Since only TCP connections are enabled for SSH in our security group rule, ICMP packets will be denied, making ping fail   </li>
+<br><p align="center"><img src="https://i.imgur.com/7Km5wBY.png" height="70%" width="70%">
 
-<li>   </li>
-<br><p align="center"><img src="" height="70%" width="70%">
+<li> However, if we connect to our VM with SSH, we will be able to accept the key </li>
+Run
+```
+ssh <username>@<webVM-IP>
+
+#For our example we ran 
+ssh HomeLab@10.0.0.5
+```
+<br><p align="center"><img src="https://i.imgur.com/kkz3qEW.png" height="70%" width="70%">
 
 
 </ol>
