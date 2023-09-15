@@ -13,7 +13,7 @@ docker run -it cyberxsecurity/ansible /bin/bash
 <li>We will now need to create a SSH key using ssh-keygen  </li>
 <br><p align="center"><img src="https://i.imgur.com/jkr9ND7.png" height="70%" width="70%">
 
-<li> Run `ls .ssh/` to view the keys created  </li>
+<li> Run <code>ls .ssh/</code> to view the keys created  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
 <li>   </li>
