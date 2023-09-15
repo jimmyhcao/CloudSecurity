@@ -3,7 +3,18 @@
 <ol>
 
   
-<li>   </li>
+<li>Connect to jump box and connect to the Ansible container </li>
+<ul>
+<li>run <code> docker container list a</code>code> to find the name of the container</code></li>
+<li>Start the container using <code>docker start [container name]</code></li>
+<li>Get a shell on the container using <code>docker attach [container name]</code></li>
+  
+</ul>
+
+
+
+
+
 <br><p align="center"><img src="" height="70%" width="70%">
 
 <li>   </li>
