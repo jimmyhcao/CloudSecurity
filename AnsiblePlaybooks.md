@@ -32,10 +32,6 @@
 <li><code>become true</code>: This will run all actions as root on the server. We must run items with root to install software and make system changes
 <li><code>tasks</code>: Will specify what actions we want to take. Everything listed under tasks will run one at a time. 
 </li>
-
-
-
-  
 </ul>
 
 
@@ -45,7 +41,13 @@
 
 
 
-<li>   </li>
+<li> Continue to add the following modules to our playbook. <br>
+ <br> 
+<ul><li> Use Ansible <code>apt</code> module to install <code>docker.io</code>. Keep in mind that <code>update_cache</code> will need to be used here ass well</li>
+<li>Use Ansible <code>apt</code> module to install <code>python3-pip</code> </li>
+
+</ul>
+</li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
 <li>   </li>
