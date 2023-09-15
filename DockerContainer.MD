@@ -8,11 +8,11 @@
 <li>We will begin by making a connection to our Jump Box through SSH  </li>
 <br><img src="https://i.imgur.com/lzfNmUC.png" height="70%" width="70%">
 
-<br><li> Next, we will need to install Docker with the commands
+<br><li> Next, we will need to install Docker with the commands</li>
 ```
 sudo apt update
 sudo apt install docker.io
-```</li>
+```
 <br><img src="" height="70%" width="70%">
 
 <br><li>Once Docker has completed downloading, verify that Docker service is running using the command
