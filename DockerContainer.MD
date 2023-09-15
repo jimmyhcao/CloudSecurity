@@ -13,7 +13,7 @@
 sudo apt update
 sudo apt install docker.io
 ```
-<br><img src="" height="70%" width="70%">
+<br><p align="center"><img src="" height="70%" width="70%">
 
 <br><li>Once Docker has completed downloading, verify that Docker service is running using the command
 ```
@@ -21,7 +21,7 @@ sudo systemctl status docker
 ```
 
 </li>
-<br><img src="https://i.imgur.com/YRRNAFL.png" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/YRRNAFL.png" height="70%" width="70%">
 <br> Note that if Docker service is not running, it can be started with the following command: 
 ```
 sudo systemctl start docker
@@ -34,7 +34,7 @@ sudo docker pull cyberxsecurity/ansible
 <br>This command will download the specified container image from Docker Hub to your local system. Once the image is pulled, you can proceed to create and run containers based on it for your Ansible tasks.
 
 </li>
-<br><img src="https://i.imgur.com/OZDDfaf.png" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/OZDDfaf.png" height="70%" width="70%">
 
 <br>Ansible is an open-source automation tool that simplifies IT infrastructure management and configuration through code, making it crucial for automating tasks and maintaining consistency in our Dockerized environment.
 
@@ -45,16 +45,15 @@ sudo docker pull cyberxsecurity/ansible
 docker run -ti cyberxsecurity/ansible:latest bash
 ```
  </li>
-<br><img src="https://i.imgur.com/x9on3sf.png" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/x9on3sf.png" height="70%" width="70%">
 
 <br>This command initiates the Ansible container, allocates a pseudo-TTY for interaction, and starts a bash shell inside the container. This allows you to access the container's command-line interface and execute Ansible commands for our project needs.
 
 
-
 <br><li>We will now need to create a new security group rule that will allow our Jump Box full access to our VNet. For now we will need an inbound rule that will allow SSH connections from our Jump Box's private IP address.</li>
-<br><img src="  https://i.imgur.com/JvXlaki.png " height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/JvXlaki.png " height="70%" width="70%">
 
-<br><img src="https://i.imgur.com/Byv930Z.png" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/Byv930Z.png" height="70%" width="70%">
 
 
 
