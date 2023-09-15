@@ -28,12 +28,14 @@ docker run -it cyberxsecurity/ansible /bin/bash
 
 <li> However, if we connect to our VM with SSH, we will be able to accept the key </li>
 Run
+
 ```
 ssh <username>@<webVM-IP>
 
 #For our example we ran 
 ssh HomeLab@10.0.0.5
 ```
+
 <br><p align="center"><img src="https://i.imgur.com/kkz3qEW.png" height="70%" width="70%">
 
 
