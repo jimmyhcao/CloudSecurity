@@ -31,7 +31,6 @@ Run
 
 ```
 ssh <username>@<webVM-IP>
-
 #For our example we ran 
 ssh HomeLab@10.0.0.5
 ```
