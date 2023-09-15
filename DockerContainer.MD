@@ -23,6 +23,7 @@ sudo systemctl status docker
 </li>
 <br><p align="center"><img src="https://i.imgur.com/YRRNAFL.png" height="70%" width="70%">
 <br> Note that if Docker service is not running, it can be started with the following command: 
+
 ```
 sudo systemctl start docker
 ```
