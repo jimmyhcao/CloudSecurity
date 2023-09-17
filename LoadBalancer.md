@@ -13,7 +13,7 @@
 
 </ul>
 
-<br><p align="center"><img src="" height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/oBuBTBv.png" height="70%" width="70%">
 
 <li>Add health prove to regularly check the VMs to make sure they receive traffic   </li>
 <br><p align="center"><img src="" height="70%" width="70%">
