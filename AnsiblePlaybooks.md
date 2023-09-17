@@ -1,4 +1,4 @@
-3<h1>Crafting Ansible Playbooks </h1>
+<h1>Crafting Ansible Playbooks </h1>
 
 <ol>
 
