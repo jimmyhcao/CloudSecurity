@@ -23,8 +23,6 @@ A step by step guide on building a Resource Group can be found <a href="Resource
 
 
 
-https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/63ad031e16fa2e1f13dfa5537d5cf7fdd05295d6/ResourceGroup.md
-
 <br>
 <hr>
 <h3>Virtual Network</h3>
