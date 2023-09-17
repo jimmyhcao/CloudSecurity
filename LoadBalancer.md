@@ -9,33 +9,28 @@
 <li>Click + Create and use same resource group as other sources
 <li>
 
-
-
-  
 </li>
 
-
-  
 </ul>
 
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li>Add health prove to regularly check the VMs to make sure they receive traffic   </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> Create backend pool with both VMs added to it </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> Create a load balancing rule to forward port 80 from the load balancer to the Virtual Network  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> Create a new security group rule to allow port 80 traffic from the internet to your internal Virtual Network  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> Remove security grou rule that blocks all traffic on Virtual Network to allow traffic from load balancer through  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> Verify DVWA app can be reached from browser  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
 
