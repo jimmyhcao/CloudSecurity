@@ -34,7 +34,7 @@ A virtual network, often called a VLAN or VPN, creates isolated network segments
 <br><img src="https://i.imgur.com/uhwmAng.png" height="70%" width="70%">
 
 <br>
-A step by step guide on creating Azure's Virtual Network can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/eecea6118be682c37ee223303b1e40f650c40717/VirtualNetwork.md"> here</a><br>
+A step by step guide on creating Azure's Virtual Network can be found <a href="VirtualNetwork.md"> here</a><br>
 <br>
 <hr>
 <h3>Network Security Group (NSG)</h3>
