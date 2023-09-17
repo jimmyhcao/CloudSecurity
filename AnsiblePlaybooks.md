@@ -50,10 +50,17 @@
 </li>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li>Use Ansible <code>pip</code> module to install <code>docker</code>  </li>
+
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li> Use Ansible <code>docker-contianer</code> module to install the <code>cyberxsecurity/dvwa</code> container</li><br>
+<ul><li><code>published_ports</code> should be 80 for the container port and 80 for the host port
+<li><code>restart_policy:</code> should be <code>always</code> to ensure that the container resarts if the web VM is restarted. If this setting is not on then the container will need to be restarted manually whenever the VM is resarted.</li>
+
+
+
+  </ul>
 <br><p align="center"><img src="" height="70%" width="70%">
 
 <li>   </li>
