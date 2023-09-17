@@ -43,7 +43,7 @@
 
 <li> Continue to add the following modules to our playbook. <br>
  <br> 
-<ul><li> Use Ansible <code>apt</code> module to install <code>docker.io</code>. Keep in mind that <code>update_cache</code> will need to be used here ass well</li>
+<ul><li> Use Ansible <code>apt</code> module to install <code>docker.io</code>. Keep in mind that <code>update_cache</code> will need to be used here as well</li>
 <li>Use Ansible <code>apt</code> module to install <code>python3-pip</code> </li>
 
 </ul>
@@ -57,18 +57,17 @@
 <li> Use Ansible <code>docker-contianer</code> module to install the <code>cyberxsecurity/dvwa</code> container</li><br>
 <ul><li><code>published_ports</code> should be 80 for the container port and 80 for the host port
 <li><code>restart_policy:</code> should be <code>always</code> to ensure that the container resarts if the web VM is restarted. If this setting is not on then the container will need to be restarted manually whenever the VM is resarted.</li>
-
-
-
-  </ul>
+</ul>
 <br><p align="center"><img src="" height="70%" width="70%">
 
-<li>   </li>
+<li>Use <code>systemd</code> module to restart docker service when the machine reboots  </li>
 <br><p align="center"><img src="" height="70%" width="70%">
+
+<li> The completed playbook will look like this</li>
 
 
 </ol>
 
 <br>
-<br>Click here to return to <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/255bd281943dc73bf4b25b1e440dda6173dbe091/README.md"> README.MD</a>
+<br>Click here to return to <a href="README.md"> README.MD</a>
 
