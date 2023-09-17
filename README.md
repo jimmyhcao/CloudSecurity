@@ -19,8 +19,11 @@ Azure resource groups organize related resources for a project, making them easi
 <br><img src="https://i.imgur.com/ejBDnoP.png" height="70%" width="70%">
 
 <br>
-A step by step guide on building a Resource Group can be found <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/63ad031e16fa2e1f13dfa5537d5cf7fdd05295d6/ResourceGroup.md"> here</a><br>
+A step by step guide on building a Resource Group can be found <a href="ResourceGroup.md"> here</a><br>
 
+
+
+https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/63ad031e16fa2e1f13dfa5537d5cf7fdd05295d6/ResourceGroup.md
 
 <br>
 <hr>
