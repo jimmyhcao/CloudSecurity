@@ -42,9 +42,9 @@
 </li><br>
 
 ```
-  - name: docker.io
+  - name: Install docker.io
     apt:
-  		update_cache: yes
+      update_cache: yes
       name: docker.io
       state: present
 
