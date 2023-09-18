@@ -30,7 +30,7 @@
 <li> Create a new security group rule to allow port 80 traffic from the internet to your internal Virtual Network  </li>
 <br><p align="center"><img src="https://i.imgur.com/zbEK6he.png" height="70%" width="70%">
 
-<li> Remove security grou rule that blocks all traffic on Virtual Network to allow traffic from load balancer through  </li>
+<li> Remove security group rule that blocks all traffic on Virtual Network to allow traffic from load balancer through  </li>
 
 
 <li> Verify DVWA app can be reached from browser  </li>
