@@ -54,14 +54,10 @@ Now that we have our virtual network and security group created to protect it, w
 <li>Disks
 <li>CPU</li>
 <br>Within the realm of virtual computing, these elements are simulated through software. When setting up a virtual machine (VM), we specify its "hardware" attributes, which encompass details such as RAM, storage capacity, and CPU. Following this configuration, we install an operating system, enabling the VM to function as a standard computer.<br>
-<br>In this phase, our goal is to establish three virtual machines (VMs), with one serving as a jump box, also referred to as a bastion host. This jump box will act as the gateway for accessing our cloud network and any other VMs residing within it. 
-
+<br>In this phase, our goal is to establish three virtual machines (VMs), with one serving as a jump box, also referred to as a bastion host. This jump box will act as the gateway for accessing our cloud network and any other VMs residing within it. We will be configuring our Jump Box VM to access our two additional VMs through SSH authentication.
 
 <br><p align="center"><i>Basic diagram of our objective during this step</i>
 <br><img src="https://i.imgur.com/5KhC9SS.png" height="70%" width="70%">
-
-
-
 
 
 <br>Enabling password authentication for SSH on a server is considered insecure due to the vulnerability of passwords being susceptible to brute-force attacks. From this point forward, our cloud server access will exclusively rely on cryptographic SSH keys; password authentication will not be allowed.
@@ -77,3 +73,9 @@ SSH authentication works by generating a key pair, with the private key stored o
 <br><p align="center"><i></i>
 <br><img src="" height="70%" width="70%">
 <br><a href=""> Download</a>
+
+<hr>
+
+
+
+
