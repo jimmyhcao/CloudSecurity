@@ -9,6 +9,17 @@ In an age of cloud dominance, safeguarding your network is paramount. Our GitHub
 <li>Ansible
 </li>
 
+<br>A short overview of the steps we will be covering throughout this project is:
+<ol>
+  <li>Create a Resource Group
+  <li>Create a Virtual Network
+  <li>Create 3 Virtual Machines
+  <li>Download Docker on one Virtual Machine to configure the other 2
+  <li>Create a Playbook
+  <li>Set up a Load Balancer
+  <li>Check for redundancy</li>
+</ol>
+
 <h2>Getting Started</h2>
 To get our project kicked off, we will need to create and sign into out Microsoft Azure account. After which we will create a <b>Resource Group</b>
 <br>
