@@ -9,6 +9,11 @@ In an age of cloud dominance, safeguarding your network is paramount. Our GitHub
 <li>Ansible
 </li>
 
+<br>By the end of this project our cloud infrastructure will look similar to the following image
+<br><img src="https://i.imgur.com/hHEWUmd.png" height="70%" width="70%">
+
+
+
 <br>A short overview of the steps we will be covering throughout this project is:
 <ol>
   <li>Create a Resource Group
