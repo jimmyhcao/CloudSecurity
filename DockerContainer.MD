@@ -13,7 +13,7 @@
 sudo apt update
 sudo apt install docker.io
 ```
-<br><p align="center"><img src="" height="70%" width="70%">
+
 
 <br><li>Once Docker has completed downloading, verify that Docker service is running using the command
 ```
@@ -62,4 +62,4 @@ docker run -ti cyberxsecurity/ansible:latest bash
 </ol>
 
 <br>
-<br>Click here to return to <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/255bd281943dc73bf4b25b1e440dda6173dbe091/README.md"> README.MD</a>
+<br>Click here to return to <a href="README.md"> README.MD</a>
