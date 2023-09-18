@@ -94,10 +94,18 @@ Docker is an open-source platform that allows developers to package applications
 <br><p align="center"><i></i>
 <br><img src="https://i.imgur.com/uX3lc9d.png" height="70%" width="70%">
 
-<br><a href="A step by step guide on Docker container setup can be found"> here</a>
-<br><a href="A step by step guide on setting up the Provisoner can be found"> here</a>
-<br><a href="A step by step guide on creating a Ansible playbook can be found"> here</a>
+<br>A step by step guide on Docker container setup can be found<a href="DockerContainer.MD"> here</a>
+<br>A step by step guide on setting up the Provisoner can be found<a href="ProvisionerSetUp.MD"> here</a>
+<br>A step by step guide on creating a Ansible playbook can be found<a href="AnsiblePlaybooks.md"> here</a>
 
+
+<hr>
+<h3>Load Balancer</h3>
+At this point, we've established a virtual network, deployed a jump box with an Ansible Docker container, and configured another VM for DVWA. However, the DVWA VM is vulnerable to DoS attacks, a common issue for websites. To mitigate this, we'll set up a load balancer with an external IP to distribute traffic across multiple servers, enhancing resilience. Our next step is to make the DVWA VM accessible by configuring the load balancer.
+<br><p align="center"><i></i>
+<br><img src="https://i.imgur.com/wseHTm6.png" height="70%" width="70%">
+
+  <br>A step by step guide on creating a Load Balancer can be found <a href="LoadBalancer.md"> here</a>
 
 
 
