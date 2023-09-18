@@ -2,35 +2,45 @@
 <ol>
 
   
-<li>From homescreen, create a resource and search for "virtual machine". Then navigate to the Virtual machine icon</li>
+<li>Create a Virtual Machine (JumpBox)
+  
+ <ul><li>From homescreen, create a resource and search for "virtual machine". Then navigate to the Virtual machine icon.</ul> 
+</li>
 <br><p align="center"><img src="https://i.imgur.com/S1PKpj7.png" height="70%" width="70%">
 
-<br><li>When creating a virtual machine, ensure that the subscription and resource group is the same as our virtual network and security group. 
+<br>
 <ul>
-<li>In this step we will be naming our VM. For our first VM we will be giving it the name "JumpBox" so we can easily distinguish it from the other VMs.
-<li>Organizations may choose different OS images based on organizational needs, however for this project to keep costs low we will go with the bare minimum needed for this project to function.
-<li>Our Jump Box will only require 1 CPU and 1 G of RAM.
-</li>
+<li>Ensure the subscription and resource group match your virtual network and security group.
+<li>Name your VM, e.g., "JumpBox," for easy identification.
+<li>Choose an OS image based on your project needs.
+<li>Configure the VM with 1 CPU and 1 GB of RAM.
 </ul>
  </li>
 <br><p align="center"><img src="https://i.imgur.com/rtIbfJ9.png" height="70%" width="70%">
 
+<br><li>Generate an SSH Key Pair
+<ul><li>Open a Git Bash terminal and run <code>ssh-keygen</code> to generate a key pair.
+  <li>Display the public key with <code>cat ~/.ssh/id_rsa.pub</code>.
+    <li>Highlight and copy the SSH public key for later use.
+      <li>Note: <code>id_rsa</code> is the private key (do not share), and <code>id_rsa.pub</code> is the public key. </ul>
 
-
-<br><li>Generate a key pair by running <code>ssh-keygen</code> into a <b>Git Bash</b> terminal. To display our public key, run the command <code>cat ~/.ssh/id_rsa.pub</code>. Highlight and copy the SSH key for later use. </li>
-<ul>
-<li><code>id_rsa</code></li> is our private key (do not share)
-<li><code>id_rsa.pub</code></li> is our public key
-  </ul>
 <br><p align="center"><img src="https://i.imgur.com/blgd5YN.png" height="70%" width="70%">
 <br><p align="center"><img src="https://i.imgur.com/dknvmdq.png" height="90%" width="90%">
 
 
-<br><li>Next we will use our newly generated public key and attach it to our Jump Box. Under the Administrator account, we will create a username HomeLab for simplicity. This is where we will paste our public key that we had copied earlier.      </li>
+<br><li>Attach Public Key to the JumpBox VM   </li>
+<ul>
+<li>In VM settings, under the Administrator account, create a username (e.g., HomeLab).
+  <li>Paste the previously copied public key into the designated field.
+</li>
+</ul>
 <br><p align="center"><img src="https://i.imgur.com/ShwgSJu.png" height="70%" width="70%">
 
 
-<br><li> Move to the <b>Networking</b> tab and set the following settings for Virtual network, network security group etc.  </li>
+<br><li>Configure Networking Settings</li>
+<ul>
+  <li>Move to the Networking tab and set the appropriate settings for Virtual network, network security group, etc.</li>
+</ul>
 <br><p align="center"><img src="https://i.imgur.com/ms78hZu.png" height="70%" width="70%">
 
 <br><li> Review and create      </li>
