@@ -78,7 +78,7 @@ Now that we have our virtual network and security group created to protect it, w
 SSH authentication works by generating a key pair, with the private key stored on your computer, while the public key is stored on the server you want to access. When attempting to gain access, the SSH protocol will check if the key pair is a match. Once verified, the user will be authenticated and granted access.
 <p align="center"><img src="https://i.imgur.com/OvzQROD.png" height="70%" width="70%">
 
-<br><a href=""> Download</a>
+<br>A step by step guide on creating Virtual Machines can be found <a href="VirtualMachine.md"> here</a>
 
 
 
