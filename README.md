@@ -94,7 +94,9 @@ Docker is an open-source platform that allows developers to package applications
 <br><p align="center"><i></i>
 <br><img src="https://i.imgur.com/uX3lc9d.png" height="70%" width="70%">
 
-
+<br><a href="A step by step guide on Docker container setup can be found"> here</a>
+<br><a href="A step by step guide on setting up the Provisoner can be found"> here</a>
+<br><a href="A step by step guide on creating a Ansible playbook can be found"> here</a>
 
 
 
@@ -102,5 +104,5 @@ Docker is an open-source platform that allows developers to package applications
 
 <br><p align="center"><i></i>
 <br><img src="" height="70%" width="70%">
-<br><a href=""> Download</a>
+<br><a href=""> here</a>
 
