@@ -5,18 +5,19 @@
 <li>From homescreen, create a resource and search for "virtual machine". Then navigate to the Virtual machine icon</li>
 <br><p align="center"><img src="https://i.imgur.com/S1PKpj7.png" height="70%" width="70%">
 
-<br><li>When creating a virtual machine, ensure that the subscription and resource group is the same as our virtual network and security group. In this step we will be naming our VM. For our first VM we will be giving it the name "JumpBox" so we can easily distinguish it from the other VMs. Organizations may choose different OS images based on organizational needs, however for this project to keep costs low we will go with the bare minimum needed for this project to function. Our Jump Box will only require 1 CPU and 1 G of RAM. </li>
+<br><li>When creating a virtual machine, ensure that the subscription and resource group is the same as our virtual network and security group. 
+<ul>
+<li>In this step we will be naming our VM. For our first VM we will be giving it the name "JumpBox" so we can easily distinguish it from the other VMs.
+<li>Organizations may choose different OS images based on organizational needs, however for this project to keep costs low we will go with the bare minimum needed for this project to function.
+<li>Our Jump Box will only require 1 CPU and 1 G of RAM.
+</li>
+</ul>
+ </li>
 <br><p align="center"><img src="https://i.imgur.com/rtIbfJ9.png" height="70%" width="70%">
 
-<br><li>After entering in basic information, we can see there is also an <b>Administrator account</b> set up at the bottom of the page on the Basics tab. Since security is our most upmost concern, we will approach this with a "ground up security approach", in which we implement security measures in a system or organization from the very beginning, starting with the foundational elements and principles.
 
-<br>Enabling password authentication for SSH on a server is considered insecure due to the vulnerability of passwords being susceptible to brute-force attacks. From this point forward, our cloud server access will exclusively rely on cryptographic SSH keys, password authentication will not be allowed.
-</li>
 
-<i>SSH authentication works by generating a key pair with the private key being stored on your computer while the public key is stored on the server you want access to. When attempting to gain access the SSH protocol will check if the key pair is a match, once verified the user will be authenticated access.</i>
-<p align="center"><img src="https://i.imgur.com/OvzQROD.png" height="70%" width="70%">
-
-<br><li>To generate a key pair we will need to run <code>ssh-keygen</code> into a <b>Git Bash</b> terminal. To display our public key, run the command <code>cat ~/.ssh/id_rsa.pub</code>. Highlight and copy the SSH key for later use. </li>
+<br><li>Generate a key pair by running <code>ssh-keygen</code> into a <b>Git Bash</b> terminal. To display our public key, run the command <code>cat ~/.ssh/id_rsa.pub</code>. Highlight and copy the SSH key for later use. </li>
 <ul>
 <li><code>id_rsa</code></li> is our private key (do not share)
 <li><code>id_rsa.pub</code></li> is our public key
@@ -36,7 +37,8 @@
 <br><p align="center"><img src="https://i.imgur.com/b8cDCzc.png" height="70%" width="70%">
 
 <br><li> We will now see our Jump Box virtual machine on our main page   </li>
-<br><p align="center"><img src="  https://i.imgur.com/7L4n511.png " height="70%" width="70%">
+
+<br><p align="center"><img src=" https://i.imgur.com/7L4n511.png " height="70%" width="70%">
 
 <br><li>  We'll need to establish two more virtual machines, Web-1 and Web-2, which will serve as servers within our internal network. These procedures will resemble the process of creating our Jump Box VM, albeit with some minor distinctions and important considerations to keep in mind. </li>
 <ul>
