@@ -43,26 +43,27 @@
 </ul>
 <br><p align="center"><img src="https://i.imgur.com/ms78hZu.png" height="70%" width="70%">
 
-<br><li> Review and create      </li>
+<br><li> Review and create </li>
+<ul><li>Review your VM configuration settings to ensure they match your requirements.</li></ul>
 <br><p align="center"><img src="https://i.imgur.com/b8cDCzc.png" height="70%" width="70%">
 
 <br><li> We will now see our Jump Box virtual machine on our main page   </li>
 
 <br><p align="center"><img src="https://i.imgur.com/7L4n511.png" height="70%" width="70%">
 
-<br><li>  We'll need to establish two more virtual machines, Web-1 and Web-2, which will serve as servers within our internal network. These procedures will resemble the process of creating our Jump Box VM, albeit with some minor distinctions and important considerations to keep in mind. </li>
+<br><li>Create Web-1 and Web-2 VMs  </li>
 <ul>
-<li>VMs will need to be in the same resource group as everything else</li>
-<li>VMs need to be in the same region as our resource group and security group</li>
-<li>The administrator username will be identical to that of our Jump Box VM to make it easier to remember </li>
-<li>These web servers will need to have 1 CPU and 2 G of RAM</li>
+<li>Repeat the above steps to create two more VMs, Web-1 and Web-2, for your internal network.</li>
+<li>Ensure these VMs are in the same resource group and region.</li>
+<li>Use the same administrator username as the JumpBox for consistency. </li>
+<li>Configure each web server with 1 CPU and 2 GB of RAM.</li>
 </ul>
 
 <br><p align="center"><img src="https://i.imgur.com/zNAgnJT.png" height="70%" width="70%">
 <br><p align="center"><img src="https://i.imgur.com/jgeE7EE.png" height="70%" width="70%">
 <br><p align="center"><img src="https://i.imgur.com/w5triW6.png" height="70%" width="70%">
 
-<br> We now have a total of 3 virtual machines on our network.
+<br> WYou now have a total of 3 virtual machines in your network.
 </ol>
 
 <br>
