@@ -11,15 +11,16 @@
 <br><img src="https://i.imgur.com/LryYNSo.png" height="70%" width="70%">
 
 <br><li>After creating the network security group, click on the resource to make configurations. We can find our settings on the left panel. We will configure <b>inbound security rules in this next step</b></li>
-<br><img src="https://i.imgur.com/K05XPxJ.png" height="70%" width="70%">
+<br><img src="https://i.imgur.com/K05XPxJ.png" height="70%" width="70%"><br>
 
-<li>After clicking on the inbound security rules on the left panel, click on the <b>+ Add</b> button on the top of the middle screen. A panel will appear on the right side of the screen where we can set the rules for inbound traffic. For increased security, we will create a deny rule that will deny:<br>
-<br>-From any source IP
-<br>-From all source ports using the wildcard (*)
-<br>-To any destination IP
-  <br>-To any destination ports using the wildcard (*)
-  <br>-Any protocol used
-</li>
+<br><li>After clicking on the inbound security rules on the left panel, click on the <b>+ Add</b> button on the top of the middle screen. A panel will appear on the right side of the screen where we can set the rules for inbound traffic. For increased security, we will create a deny rule that will deny:<br>
+<ul>
+<li>From any source IP
+<li>From all source ports using the wildcard (*)
+<li>To any destination IP
+<li>To any destination ports using the wildcard (*)
+<li>Any protocol used
+</ul>
 <br><img src="https://i.imgur.com/QGL00eB.png" height="70%" width="70%"><br>
 <br>Since we are setting the priority for this rule at a higher number, it will be applied last
 
