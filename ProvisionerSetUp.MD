@@ -21,7 +21,7 @@ docker run -it cyberxsecurity/ansible /bin/bash
 <br><p align="center"><img src="https://i.imgur.com/8YbYXCe.png" height="100%" width="100%">
 
 <li> From the Azure home page, go into one of the VM's detail page. On the left panel navigate to "reset password" and enter the public key that was copied. </li>
-<br><p align="center"><img src="" height="70%" width="70%">
+
 
 <li>Test connection of our Jump Box Ansible Container. Since only TCP connections are enabled for SSH in our security group rule, ICMP packets will be denied, making ping fail   </li>
 <br><p align="center"><img src="https://i.imgur.com/7Km5wBY.png" height="70%" width="70%">
@@ -64,4 +64,4 @@ All of hte Ansible configuration files are located in the <code>/etc/ansible</co
 </ol>
 
 <br>
-<br>Click here to return to <a href="https://github.com/jimmyhcao/CloudSecurity-InProgress/blob/255bd281943dc73bf4b25b1e440dda6173dbe091/README.md"> README.MD</a>
+<br>Click here to return to <a href="README.md"> README.MD</a>
