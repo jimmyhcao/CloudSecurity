@@ -107,10 +107,13 @@ At this point, we've established a virtual network, deployed a jump box with an 
 
   <br>A step by step guide on creating a Load Balancer can be found <a href="LoadBalancer.md"> here</a>
 
-
-
+<hr>
+<h3>Final Check</h3>
+At this point we have our cloud infrastructure set up to host our DVWA site. In this final portion we can test the redundancy of our system. We can do so by shutting down one of our Web VMs and verifying that we can still access the DVWA site from a browser
 
 <br><p align="center"><i></i>
-<br><img src="" height="70%" width="70%">
-<br><a href=""> here</a>
+<br><img src="https://i.imgur.com/6UkC8cB.png" height="70%" width="70%">
+<br><img src="https://i.imgur.com/3QuhcJ2.png" height="70%" width="70%">
 
+
+<br>Congratulations! We have successfully created a redundant cloud infrastructure hosting the DVWA site. If you have any questions, comments, or suggestions, please don't hesitate to reach out to me at jimmy.h.cao@gmail.com.
