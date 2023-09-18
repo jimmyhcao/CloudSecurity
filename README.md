@@ -67,15 +67,34 @@ Now that we have our virtual network and security group created to protect it, w
 SSH authentication works by generating a key pair, with the private key stored on your computer, while the public key is stored on the server you want to access. When attempting to gain access, the SSH protocol will check if the key pair is a match. Once verified, the user will be authenticated and granted access.
 <p align="center"><img src="https://i.imgur.com/OvzQROD.png" height="70%" width="70%">
 
+<br><a href=""> Download</a>
+
+
+
+
+<hr>
+<h3>Docker Container</h3> 
+Docker is an open-source platform that allows developers to package applications and their dependencies into containers. These containers are lightweight, portable, and isolated, ensuring that applications run consistently across different environments. Docker simplifies development, testing, and deployment by providing a consistent and reproducible environment for applications, making it easier to manage and scale software across various platforms.
+
+<br>In this project phase, we will embark on configuring your jump box to execute Docker containers and undertake the installation of a specific container.
+
+<br><p align="center"><i></i>
+<br><img src="https://i.imgur.com/OZDDfaf.png" height="90%" width="90%">
+
+
+<br>As we strive for a comprehensive and consistent automated configuration approach, we will leverage Docker to deploy Ansible, a provisioning tool. This strategy guarantees the uniform execution of our provisioning scripts across all environments. Consequently, our automated configurations will maintain precise consistency with each execution, minimizing any potential variations in configurations.
+
+
+
+
+
+
+
+
 
 
 
 <br><p align="center"><i></i>
 <br><img src="" height="70%" width="70%">
 <br><a href=""> Download</a>
-
-<hr>
-
-
-
 
