@@ -38,7 +38,7 @@
 
 <br><li> We will now see our Jump Box virtual machine on our main page   </li>
 
-<br><p align="center"><img src=" https://i.imgur.com/7L4n511.png " height="70%" width="70%">
+<br><p align="center"><img src="https://i.imgur.com/7L4n511.png" height="70%" width="70%">
 
 <br><li>  We'll need to establish two more virtual machines, Web-1 and Web-2, which will serve as servers within our internal network. These procedures will resemble the process of creating our Jump Box VM, albeit with some minor distinctions and important considerations to keep in mind. </li>
 <ul>
