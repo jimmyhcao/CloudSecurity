@@ -84,9 +84,15 @@ Docker is an open-source platform that allows developers to package applications
 
 <br>As we strive for a comprehensive and consistent automated configuration approach, we will leverage Docker to deploy Ansible, a provisioning tool. This strategy guarantees the uniform execution of our provisioning scripts across all environments. Consequently, our automated configurations will maintain precise consistency with each execution, minimizing any potential variations in configurations.
 
+<br>At this point in our project, we will be completing a couple of steps:
+<ul>
+<li>Download Docker container with Ansible onto our Jump Box VM
+  <li>Create a Playbook with instructions to download Docker, Python, and DVWA (Damn Vulnerable Web Application)
+    <li>Distribute our playbook to our Web-1 and Web-2 VMs using Ansible</li>
+</ul>
 
-
-
+<br><p align="center"><i></i>
+<br><img src="https://i.imgur.com/uX3lc9d.png" height="70%" width="70%">
 
 
 
