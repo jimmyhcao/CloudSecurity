@@ -9,7 +9,7 @@ In an age of cloud dominance, safeguarding your network is paramount. Our GitHub
 <li>Ansible
 </li>
 
-<br>By the end of this project our cloud infrastructure will look similar to the following image
+<br>By the end of this project our cloud infrastructure will look similar to the following image<br>
 <br><img src="https://i.imgur.com/hHEWUmd.png" height="70%" width="70%">
 
 
