@@ -7,7 +7,6 @@
 <ul>
 <li>Search for <code>Load Balancer</code> in search bar on main portal page
 <li>Click + Create and use same resource group as other sources
-<li>
 
 </li>
 
