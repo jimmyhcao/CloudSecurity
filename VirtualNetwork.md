@@ -27,7 +27,7 @@
 <br><li>Our virtual network will now appear on our homescreen for our Azure page</li>
 <br><img src="https://i.imgur.com/VMEub3j.png" height="70%" width="70%">
 
-<br><li>Click on the resource group we created, you should see the virtual network we created listed as a ressoruce</li>
+<br><li>Click on the resource group we created, you should see the virtual network we created listed as a resoruce</li>
 <br><img src="https://i.imgur.com/ihkbHfz.png" height="70%" width="70%">
 
 </ol>
