@@ -63,8 +63,9 @@
 <br><p align="center"><img src="https://i.imgur.com/jgeE7EE.png" height="70%" width="70%">
 <br><p align="center"><img src="https://i.imgur.com/w5triW6.png" height="70%" width="70%">
 
-<br> You now have a total of 3 virtual machines in your network.
+<br>You now have a total of 3 virtual machines in your network.
 </ol>
 
 <br>
-<br>Click here to return to <a href="README.md"> README.MD</a>
+<p>Click here to return to <a href="README.md">README.MD</a></p>
+
