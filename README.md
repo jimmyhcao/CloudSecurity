@@ -4,10 +4,11 @@ In an age of cloud dominance, safeguarding your network is paramount. Our GitHub
 
 <br>This project will cover the following tools and services:<br>
 
-<li>Microsoft Azure
-<li>Docker
-<li>Ansible
-</li>
+<ul>
+  <li>Microsoft Azure</li>
+  <li>Docker</li>
+  <li>Ansible</li>
+</ul>
 
 <br>By the end of this project, our cloud infrastructure will look similar to the following image:<br>
 
