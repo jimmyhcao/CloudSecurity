@@ -67,10 +67,12 @@ An NSG is a fundamental component of Azure's network security. It acts as a basi
 <hr>
 <h3>Virtual Machines (VMs)</h3>
 Now that we have our virtual network and security group created to protect it, we can continue building our cloud infrastructure by adding virtual machines (VMs) to our network. Virtual computing is a fundamental component of today's internet infrastructure, where many servers you encounter daily are virtual. Virtual computers share components with physical ones but are defined by software. When setting up a virtual machine, you'll configure hardware aspects, including:<br>
+
 <br><li>RAM
 <li>Storage (SSD/HDD)
 <li>Disks
 <li>CPU</li>
+
 <br>Within the realm of virtual computing, these elements are simulated through software. When setting up a virtual machine (VM), we specify its "hardware" attributes, which encompass details such as RAM, storage capacity, and CPU. Following this configuration, we install an operating system, enabling the VM to function as a standard computer.<br>
 <br>In this phase, our goal is to establish three virtual machines (VMs), with one serving as a jump box, also referred to as a bastion host. This jump box will act as the gateway for accessing our cloud network and any other VMs residing within it. We will be configuring our Jump Box VM to access our two additional VMs through SSH authentication.
 
