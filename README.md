@@ -67,7 +67,6 @@ An NSG is a fundamental component of Azure's network security. It acts as a basi
 <hr>
 <h3>Virtual Machines (VMs)</h3>
 Now that we have our virtual network and security group created to protect it, we can continue building our cloud infrastructure by adding virtual machines (VMs) to our network. Virtual computing is a fundamental component of today's internet infrastructure, where many servers you encounter daily are virtual. Virtual computers share components with physical ones but are defined by software. When setting up a virtual machine, you'll configure hardware aspects, including:<br>
-
 <br><li>RAM
 <li>Storage (SSD/HDD)
 <li>Disks
