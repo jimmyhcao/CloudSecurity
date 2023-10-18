@@ -2,14 +2,14 @@
 <br>
 In an age of cloud dominance, safeguarding your network is paramount. Our GitHub project focuses on creating a robust cloud network using VMs and containers. This project equips IT professionals, developers, and cybersecurity enthusiasts with knowledge and tools to secure cloud operations. This introduction outlines the project's significance, explores cloud networking, VMs, containers, and cybersecurity, and sets the stage for our comprehensive resources and tutorials. Join us to build a safer digital world where innovation and security thrive together.
 
-<br>This project will cover the following tools and services<br>
+<br>This project will cover the following tools and services:<br>
 
 <li>Microsoft Azure
 <li>Docker
 <li>Ansible
 </li>
 
-<br>By the end of this project our cloud infrastructure will look similar to the following image<br>
+<br>By the end of this project, our cloud infrastructure will look similar to the following image:<br>
 
 <br><img src="https://i.imgur.com/hHEWUmd.png" height="70%" width="70%">
 
