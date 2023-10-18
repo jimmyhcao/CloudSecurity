@@ -97,7 +97,7 @@ Docker is an open-source platform that allows developers to package applications
 
 <br>In this project phase, we will embark on configuring your jump box to execute Docker containers and undertake the installation of a specific container.
 
-<br><p align="center"><i></i>
+<br><p align="center">
 <br><img src="https://i.imgur.com/OZDDfaf.png" height="90%" width="90%">
 
 
