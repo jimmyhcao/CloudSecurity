@@ -21,7 +21,7 @@ In an age of cloud dominance, safeguarding your network is paramount. Our GitHub
   <li>Create a Resource Group
   <li>Create a Virtual Network
   <li>Create 3 Virtual Machines
-  <li>Download Docker on one Virtual Machine to configure the other 2
+  <li>Download Docker on one Virtual Machine to configure the other two other virtual machines
   <li>Create a Playbook
   <li>Set up a Load Balancer
   <li>Check for redundancy</li>
