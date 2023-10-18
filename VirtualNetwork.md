@@ -27,11 +27,12 @@
 <br><li>Our virtual network will now appear on our homescreen for our Azure page</li>
 <br><img src="https://i.imgur.com/VMEub3j.png" height="70%" width="70%">
 
-<br><li>Click on the resource group we created, you should see the virtual network we created listed as a resoruce</li>
+<br><li>Click on the resource group we created, you should see the virtual network we created listed as a resource</li>
 <br><img src="https://i.imgur.com/ihkbHfz.png" height="70%" width="70%">
 
 </ol>
 
 <br>You now have a resource group and VNet that you can use to create the rest of the cloud infrastructure.
 
-<br>Click here to return to <a href="README.md"> README.MD</a>
+<p>Click here to return to <a href="README.md">README.MD</a></p>
+
